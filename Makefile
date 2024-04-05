@@ -6,13 +6,13 @@
 #    By: mchemcha <mchemcha@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/29 21:54:04 by mchemcha          #+#    #+#              #
-#    Updated: 2024/03/29 22:18:25 by mchemcha         ###   ########.fr        #
+#    Updated: 2024/04/05 22:35:32 by mchemcha         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCSC  = client.c client_utils.c
+SRCSC  = client.c 
 
-SRCSS = server.c server_utils.c
+SRCSS = server.c util_printf.c printf.c
 	
 NAMEC = client
 NAMES = server 
